@@ -31,6 +31,11 @@ language
 				["email"] = <"juliodesosa@catsalut.cat">
 			>
 		>
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+			>
+		>
 	>
 
 description
@@ -42,6 +47,10 @@ description
 	>
 	lifecycle_state = <"in_development">
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			copyright = <"© openEHR Foundation">
+		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For å registrere en oversikt eller sammendrag av svangerskapet og fødselen til et individ.">
@@ -78,7 +87,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"BC491CFE30BA4EE011D599F58D86CFCF">
+		["MD5-CAM-1.0.1"] = <"7afa402521949da55f85b6a23d1ec09c">
 		["build_uid"] = <"7b1d37f7-b7fb-4350-86ab-796e93877438">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -430,6 +439,75 @@ ontology
 				["at0014"] = <
 					text = <"Kommentar">
 					description = <"Fritekst om fødselen som ikke er fanget opp i andre felt.">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Birth summary (en)">
+					description = <"*Overview or summary record of the pregnancy and birth of an individual. (en)">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Geburtsland">
+					description = <"*The country of birth of the individual. (en)">
+				>
+				["at0003"] = <
+					text = <"Geburtsdatum Alternativen">
+					description = <"*Additional details about possible alternative dates of birth. (en)">
+				>
+				["at0004"] = <
+					text = <"Geburtsdatum und Uhrzeit">
+					description = <"*The date/time of birth of the individual. (en)">
+					comment = <"*May also be used to record the assumed or agreed date/time of birth for operational purposes, if the actual date/time is not formally recorded. Possible alternatives for the date/time of birth of the individual can be recorded using the CLUSTER.DOB_alternative archetype 'Date of birth details' SLOT. Partial dates are allowed. (en)">
+				>
+				["at0005"] = <
+					text = <"Strukturierter Geburtsort">
+					description = <"*Structured details about the place of birth. (en)">
+					comment = <"*Please note: there is potential duplication of the 'Country of birth' data element if the CLUSTER.address is used.  (en)">
+				>
+				["at0006"] = <
+					text = <"Zusammenfassung der Schwangerschaft">
+					description = <"*Narrative description about the entire pregnancy, labour and delivery of the individual, including both maternal and infant complications. (en)">
+					comment = <"*This data element may be derived from the 'Pregnancy synopsis' data element within the EVALUATION.pregnancy_summary archetype in the maternal health record. (en)">
+				>
+				["at0007"] = <
+					text = <"Geburtenmehrheit">
+					description = <"*Term representing the total number of live births and stillbirths resulting from the pregnancy. (en)">
+					comment = <"*Coding of the 'birth plurality' term is recommended. For example: singleton; twins; triplets; or quadruplets.The definition of 'stillbirth' may vary in different locations.  (en)">
+				>
+				["at0008"] = <
+					text = <"Details zu Geburt">
+					description = <"*A subset of persistent or summary information about the pregnancy and birth of an infant, selected for utility of use within both the maternal and infant health records. (en)">
+				>
+				["at0009"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0010"] = <
+					text = <"Zuletzt aktualisiert">
+					description = <"*The date when the birth summary was last updated. (en)">
+				>
+				["at0011"] = <
+					text = <"Erweiterung">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"Geburtsort">
+					description = <"*Simple representation about the place of birth. (en)">
+					comment = <"*This data element provides the opportunity for simple detail about the place of birth, such as the city, region, town, or suburb within the identified 'Country of birth'. For example: Kingston (Jamaica); Manhattan (USA); or Box Hill (Australia). (en)">
+				>
+				["at0013"] = <
+					text = <"Zusätzliche Details">
+					description = <"*Additional structured details related to the birth. (en)">
+				>
+				["at0014"] = <
+					text = <"Kommentar">
+					description = <"*Additional narrative about the birth not captured in other fields. (en)">
 				>
 			>
 		>
