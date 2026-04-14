@@ -44,6 +44,11 @@ Anna-Leena Karvonen, Tietoevry, Finland">
 			>
 			accreditation = <"Hospital Alemão Oswaldo Cruz (HAOC)">
 		>
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+			>
+		>
 	>
 
 description
@@ -56,6 +61,10 @@ description
 	lifecycle_state = <"published">
 	other_contributors = <"Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)","Silje Ljosland Bakke, Nasjonal IKT HF, Norway (openEHR Editor)","Malin Berg, DIPS ASA, Norway","SB Bhattacharyya, Sudisa Consultancy Services, India","Bjørn Christensen, Helse Bergen HF, Norway","Lisbeth Dahlhaug, Helse Midt - Norge IT, Norway","Hildegard Franke, freshEHR Clinical Informatics Ltd., United Kingdom","Mikkel Gaup Grønmo, FSE, Helse Nord, Norway (Nasjonal IKT redaktør)","Ingrid Heitmann, Oslo universitetssykehus HF, Norway","Hilde Hollås, DIPS ASA, Norway","Roar Holm, Helse Vest IKT A/S, Norway","Evelyn Hovenga, EJSH Consulting, Australia","Lars Ivar Mehlum, Helse Bergen HF, Norway","Tom Jarl Jakobsen, Helse Bergen, Norway","Pétur Júlíusson, Barneklinikken, HUS og K2, UIB, Norway","Adriana Kitajima, CORE Consulting, Brazil","Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway","Harmony Kosola, Alberta Health Services, Canada","Heather Leslie, Ocean Health Systems, Australia","Inge Lindseth, Balderklinikken, Norway","Priscila Maranhão, MEDCIDS-FMUP, Portugal","Siv Marie Lien, DIPS ASA, Norway","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom","Lars Morgan Karlsen, DIPS ASA, Norway","Bjørn Næss, DIPS ASA, Norway","Andrej Orel, Marand d.o.o., Slovenia","Anne Pauline Anderssen, Helse Nord RHF, Norway","Vladimir Pizzo, Hospital Sírio Libanês, Brazil","Anoop Shah, University College London, United Kingdom","Raymond Simkus, Brookswood Family Practice, Canada","Norwegian Review Summary, Nasjonal IKT HF, Norway","Stian Torleif Varpe, Helse Bergen, Norway","John Tore Valand, Helse Bergen, Norway (openEHR Editor)">
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			copyright = <"© openEHR Foundation">
+		>
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			purpose = <"Att registrera måttet på midjans omkrets.">
@@ -145,7 +154,7 @@ Júlíusson, P. B., Vinsjansen, S., Nilsen, B., Sælensminde, H., Vågset, R., &
 		["original_namespace"] = <"no.nasjonalikt">
 		["original_publisher"] = <"Nasjonal IKT">
 		["custodian_namespace"] = <"no.nasjonalikt">
-		["MD5-CAM-1.0.1"] = <"7F1C34CFAFD8EDF99B050A576DCDBC0E">
+		["MD5-CAM-1.0.1"] = <"e092f6df5b1e013b7854c6532cf24606">
 		["build_uid"] = <"398ca131-91f6-499d-aa69-9a50b013a0f1">
 		["revision"] = <"1.0.5">
 	>
@@ -167,10 +176,6 @@ definition
 													["1"] = <
 														units = <"cm">
 														magnitude = <|0.0..500.0|>
-													>
-													["2"] = <
-														units = <"[in_i]">
-														magnitude = <|0.0..<400.0|>
 													>
 												>
 											>
@@ -489,6 +494,60 @@ ontology
 				["at0013"] = <
 					text = <"Menetelmä">
 					description = <"Vyötärönympäryksen mittaamisen menetelmä.">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"Talienumfang">
+					description = <"*The measurement of the distance around the waist. (en)">
+				>
+				["at0001"] = <
+					text = <"Event Series">
+					description = <"@ internal @">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Talienumfang">
+					description = <"*The measurement of the circumference of the waist. (en)">
+				>
+				["at0005"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0006"] = <
+					text = <"Gerät">
+					description = <"*Details about the device used for the measurement. (en)">
+				>
+				["at0007"] = <
+					text = <"Kommentar">
+					description = <"*Additional narrative about the measurement of waist circumference not captured in other fields. (en)">
+				>
+				["at0008"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0009"] = <
+					text = <"Störfaktoren">
+					description = <"*Narrative description of any issues or factors that may impact on the measurement. (en)">
+					comment = <"*For example: uncooperative child. (en)">
+				>
+				["at0010"] = <
+					text = <"Jedes Event">
+					description = <"*Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time. (en)">
+				>
+				["at0012"] = <
+					text = <"Erweiterung">
+					description = <"*Additional information required to capture local context or to align with other reference models/formalisms. (en)">
+					comment = <"*For example: Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents. (en)">
+				>
+				["at0013"] = <
+					text = <"Methode">
+					description = <"*The method how the waist circumference was measured. (en)">
 				>
 			>
 		>
