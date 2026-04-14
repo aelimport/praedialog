@@ -87,7 +87,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"7afa402521949da55f85b6a23d1ec09c">
+		["MD5-CAM-1.0.1"] = <"7da7be2c6a19e4e1c8230cdda72d02db">
 		["build_uid"] = <"7b1d37f7-b7fb-4350-86ab-796e93877438">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -445,7 +445,7 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"*Birth summary (en)">
+					text = <"Geburtsdatum">
 					description = <"*Overview or summary record of the pregnancy and birth of an individual. (en)">
 				>
 				["at0001"] = <
