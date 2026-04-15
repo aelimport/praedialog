@@ -277,7 +277,7 @@ Este arquetipo se ha diseñado para utilizarse como herramienta de cribado o par
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"4C480DDF0FB01319D297CBAFCDE50415">
+		["MD5-CAM-1.0.1"] = <"ab6a83e28c94d960235a20b707194e1f">
 		["build_uid"] = <"3bac3c8b-a205-4413-8f49-b865ed810405">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"1.1.1">
@@ -302,13 +302,7 @@ definition
 											ELEMENT[at0004] matches {    -- Context
 												value matches {
 													DV_TEXT matches {*}
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at0048,    -- Homeless
-															at0049]    -- Interpreter needed
-														}
-													}
+													DV_CODED_TEXT matches {*}
 												}
 											}
 											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Presence?
@@ -447,14 +441,6 @@ ontology
 					text = <"Additional details">
 					description = <"Additional structured details or questions about screening for social context items.">
 				>
-				["at0048"] = <
-					text = <"Homeless">
-					description = <"The individual does not have a stable place to live.">
-				>
-				["at0049"] = <
-					text = <"Interpreter needed">
-					description = <"The individual needs assistance with language translation.">
-				>
 				["at0050"] = <
 					text = <"Unsure">
 					description = <"">
@@ -539,14 +525,6 @@ ontology
 				["at0044"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional structured details or questions about screening for social context items. (en)">
-				>
-				["at0048"] = <
-					text = <"*Homeless (en)">
-					description = <"*The individual does not have a stable place to live. (en)">
-				>
-				["at0049"] = <
-					text = <"*Interpreter needed (en)">
-					description = <"*The individual needs assistance with language translation (en)">
 				>
 				["at0050"] = <
 					text = <"*Unsure (en)">
@@ -633,14 +611,6 @@ ontology
 					text = <"Ytterligere detaljer">
 					description = <"Strukturerte detaljer eller spørsmål om kartleggingen om sosiale forhold.">
 				>
-				["at0048"] = <
-					text = <"Hjemløs">
-					description = <"Individet har ingen fast bopel.">
-				>
-				["at0049"] = <
-					text = <"Trenger tolk">
-					description = <"Individet trenger assistanse til oversettelse.">
-				>
 				["at0050"] = <
 					text = <"Usikker">
 					description = <"">
@@ -725,14 +695,6 @@ ontology
 				["at0044"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional structured details or questions about screening for social context items. (en)">
-				>
-				["at0048"] = <
-					text = <"*Homeless (en)">
-					description = <"*The individual does not have a stable place to live. (en)">
-				>
-				["at0049"] = <
-					text = <"*Interpreter needed (en)">
-					description = <"*The individual needs assistance with language translation (en)">
 				>
 				["at0050"] = <
 					text = <"*Unsure (en)">
@@ -819,14 +781,6 @@ ontology
 					text = <"Detalls addicionals">
 					description = <"Detalls estructurats addicionals o preguntes sobre el cribratge d'elements de context social.">
 				>
-				["at0048"] = <
-					text = <"Sense llar">
-					description = <"La persona no té un lloc estable on viure.">
-				>
-				["at0049"] = <
-					text = <"Necessitat d'intèrpret">
-					description = <"La persona necessita ajuda amb la traducció d'idiomes.">
-				>
 				["at0050"] = <
 					text = <"Dubtós">
 					description = <"">
@@ -911,14 +865,6 @@ ontology
 				["at0044"] = <
 					text = <"Detalles adicionales">
 					description = <"Narrativa adicional sobre el contexto social del cribado, no captada en otros campos.">
-				>
-				["at0048"] = <
-					text = <"Sin hogar">
-					description = <"El individuo no tiene un lugar estable donde vivir.">
-				>
-				["at0049"] = <
-					text = <"Necesidad de intérprete">
-					description = <"La persona necesita ayuda con la traducción del idioma.">
 				>
 				["at0050"] = <
 					text = <"Dudoso">
@@ -1005,14 +951,6 @@ ontology
 					text = <"Détails supplémentaires">
 					description = <"Détails structurées ou questions sur l'évaluation du contexte social.">
 				>
-				["at0048"] = <
-					text = <"Sans abri">
-					description = <"L'individu n'a pas de domicile fixe.">
-				>
-				["at0049"] = <
-					text = <"Interprète nécessaire">
-					description = <"L’individu a besoin d’assistance pour la traduction.">
-				>
 				["at0050"] = <
 					text = <"Incertain">
 					description = <"">
@@ -1098,14 +1036,6 @@ ontology
 					text = <"Zusätzliche Angaben">
 					description = <"Zusätzliche Angaben oder Fragen zum sozialen Kontext im Allgemeinen.">
 				>
-				["at0048"] = <
-					text = <"Obdachlos">
-					description = <"Die Person hat keinen festen Wohnsitz.">
-				>
-				["at0049"] = <
-					text = <"Dolmetscher erforderlich">
-					description = <"Die Person benötigt Hilfe mit dem Übersetzen.">
-				>
 				["at0050"] = <
 					text = <"Unsicher">
 					description = <"">
@@ -1128,8 +1058,6 @@ ontology
 				["at0023"] = <[SNOMED-CT::373066001]>
 				["at0024"] = <[SNOMED-CT::373067005]>
 				["at0027"] = <[SNOMED-CT::261665006]>
-				["at0048"] = <[SNOMED-CT::32911000]>
-				["at0049"] = <[SNOMED-CT::315594003]>
 			>
 		>
 	>
