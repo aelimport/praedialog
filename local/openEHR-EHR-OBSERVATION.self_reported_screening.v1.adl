@@ -277,7 +277,7 @@ Este arquetipo se ha diseñado para utilizarse como herramienta de cribado o par
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5cc91c3f329c1a58a0f4af267d164e0d">
+		["MD5-CAM-1.0.1"] = <"bfe64a654f62034b4054be9bf16ee0e2">
 		["build_uid"] = <"3bac3c8b-a205-4413-8f49-b865ed810405">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"1.1.1">
@@ -309,6 +309,7 @@ definition
 															at0049]    -- Interpreter needed
 														}
 													}
+													DV_BOOLEAN matches {*}
 												}
 											}
 											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Presence?
