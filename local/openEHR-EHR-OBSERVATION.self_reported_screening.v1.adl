@@ -277,7 +277,7 @@ Este arquetipo se ha diseñado para utilizarse como herramienta de cribado o par
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3d0b0c6a12eb37387085f529cab9b107">
+		["MD5-CAM-1.0.1"] = <"9ce75057641c809c92e96d7ece629bb7">
 		["build_uid"] = <"3bac3c8b-a205-4413-8f49-b865ed810405">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"1.1.1">
@@ -1031,7 +1031,7 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"self_reported_screening">
+					text = <"Selbstbericht im Fragebogen">
 					description = <"Eine Reihe von Fragen und zugehörigen Antworten, um das soziale Kontext zu untersuchen und Faktoren zu identifizieren die sich auf das Wohlbefinden des Patienten auswirken können.">
 				>
 				["at0001"] = <
@@ -1047,7 +1047,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0004"] = <
-					text = <"Kontext">
+					text = <"Fragestellung">
 					description = <"Identifizierung einer bestimmten sozialen Situation oder eines Problems, das für den Fragebogen relevant ist, oder Gruppe derer.">
 					comment = <"Dieses Element bietet die Wahl zwischen freiem und kodiertem Text. Es ist davon auszugehen, dass die Liste der kodierten Werte mit der Identifizierung weiterer Anforderungen wachsen wird. Die Kodierung des „Kontexts“ mithilfe einer Terminologie sollte bevorzugt werden - beispielsweise können relevante Begriffe innerhalb der Hierarchie „Sozialer Kontext“ in SNOMED CT (SCTID: 108329005) genutzt werden. Alternativ kann auch Freitext verwendet werden, etwa „Soziale Isolation“, „Diskriminierung“ oder „Minderheitenstress“.">
 				>
@@ -1066,7 +1066,7 @@ ontology
 					comment = <"Zum Beispiel: Lokaler Informationsbedarf oder zusätzliche Metadaten zur Anpassung an FHIR-Ressourcen.">
 				>
 				["at0022"] = <
-					text = <"Spezifischer sozialer Kontext">
+					text = <"Selbstbericht">
 					description = <"Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind.">
 				>
 				["at0023"] = <
