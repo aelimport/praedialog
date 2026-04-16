@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d9312f7de8037fa3f98e6d8501a29d85"
+      "MD5-CAM-1.0.1" : "6dae629424c930f0c80d5a6f07026d40"
     },
     "details" : {
       "de" : {
@@ -4351,6 +4351,25 @@
                     "rmAttributeName" : "items",
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0034.1",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_TEXT",
+                          "defaultValue" : {
+                            "value" : "praedialog",
+                            "@type" : "DV_TEXT"
+                          },
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
                       "nodeId" : "at0022.1",
                       "attributes" : [ {
@@ -5116,7 +5135,7 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "DV_TEXT",
                           "defaultValue" : {
-                            "value" : "Praedialog",
+                            "value" : "praedialog",
                             "@type" : "DV_TEXT"
                           },
                           "attributes" : [ ],
@@ -5140,58 +5159,8 @@
                             "rmAttributeName" : "value",
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_CODED_TEXT",
-                              "attributes" : [ {
-                                "@type" : "C_ATTRIBUTE",
-                                "rmAttributeName" : "defining_code",
-                                "children" : [ {
-                                  "@type" : "C_TERMINOLOGY_CODE",
-                                  "rmTypeName" : "TERMINOLOGY_CODE",
-                                  "occurrences" : "0..1",
-                                  "terminologyId" : {
-                                    "value" : "Quellen für Wissen"
-                                  },
-                                  "constraint" : [ ],
-                                  "selectedTerminologies" : [ "Quellen für Wissen" ],
-                                  "includedExternalTerminologyCodes" : [ {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "0",
-                                    "value" : "Hausärztin / Hausarzt"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "1",
-                                    "value" : "Fachärztin / Facharzt"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "2",
-                                    "value" : "Internet allgemein"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "3",
-                                    "value" : "Soziale Medien"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "4",
-                                    "value" : "Familie / Freundeskreis"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "5",
-                                    "value" : "Krankenkasse"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "6",
-                                    "value" : "Printmedien (Zeitung, Zeitschriften, Broschüren)"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "7",
-                                    "value" : "Fernsehen / Radio"
-                                  }, {
-                                    "terminologyId" : "Quellen für Wissen",
-                                    "code" : "8",
-                                    "value" : "Noch keine gezielte Information bezogen"
-                                  } ]
-                                } ]
-                              } ],
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -5419,7 +5388,7 @@
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
-            "text" : "Quellen",
+            "text" : "Status",
             "description" : "Identifizierung einer bestimmten sozialen Situation oder eines Problems, das für den Fragebogen relevant ist, oder Gruppe derer.",
             "comment" : "Dieses Element bietet die Wahl zwischen freiem und kodiertem Text. Es ist davon auszugehen, dass die Liste der kodierten Werte mit der Identifizierung weiterer Anforderungen wachsen wird. Die Kodierung des „Kontexts“ mithilfe einer Terminologie sollte bevorzugt werden - beispielsweise können relevante Begriffe innerhalb der Hierarchie „Sozialer Kontext“ in SNOMED CT (SCTID: 108329005) genutzt werden. Alternativ kann auch Freitext verwendet werden, etwa „Soziale Isolation“, „Diskriminierung“ oder „Minderheitenstress“."
           }
