@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "48944b658fcc9a0954f9612f6aec97e9"
+      "MD5-CAM-1.0.1" : "e3c85e27cd57a5506b7bfa130bfe84c8"
     },
     "details" : {
       "de" : {
@@ -4352,7 +4352,7 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0022",
+                      "nodeId" : "at0022.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -4366,7 +4366,40 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "terminologyId" : {
+                                    "value" : "questionnaire_response_grade"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "questionnaire_response_grade" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "1",
+                                    "value" : "sehr gering"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "2",
+                                    "value" : "eher gering"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "3",
+                                    "value" : "mittel"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "4",
+                                    "value" : "eher hoch"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "5",
+                                    "value" : "sehr hoch"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -4458,6 +4491,147 @@
                       "attributeTuples" : [ ]
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0022.2",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0004.2",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "questionnaire_response_grade"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "questionnaire_response_grade" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "1",
+                                    "value" : "sehr gering"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "2",
+                                    "value" : "eher gering"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "3",
+                                    "value" : "mittel"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "4",
+                                    "value" : "eher hoch"
+                                  }, {
+                                    "terminologyId" : "questionnaire_response_grade",
+                                    "code" : "5",
+                                    "value" : "sehr hoch"
+                                  } ]
+                                } ]
+                              } ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0005.2",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "1..1",
+                                  "terminologyId" : {
+                                    "value" : "local"
+                                  },
+                                  "constraint" : [ "ac0.7" ],
+                                  "selectedTerminologies" : [ ]
+                                } ]
+                              } ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0051.2",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_DATE_TIME",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_DURATION",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_INTERVAL<DV_DATE_TIME>",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0025.2",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "ELEMENT",
                       "occurrences" : "0..0",
                       "nodeId" : "at0052.1",
@@ -4486,6 +4660,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Specific social context (2)",
+            "description" : "Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose."
           }
         },
         "fi" : {
@@ -4494,6 +4674,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "*Specific social context (en) (2)",
+            "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
           }
         },
         "nb" : {
@@ -4502,6 +4688,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Spesifikt sosialt forhold (2)",
+            "description" : "Detaljer om et spesifikt sosialt forhold, eller en gruppering av slike, som er innenfor kartleggingsformålet."
           }
         },
         "it" : {
@@ -4510,6 +4702,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "*Specific social context (en) (2)",
+            "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
           }
         },
         "ca" : {
@@ -4518,6 +4716,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Context social específic (2)",
+            "description" : "Detalls sobre un context o problema social especificat, o un grup d'aquests, rellevants per a la finalitat del cribratge."
           }
         },
         "es" : {
@@ -4526,6 +4730,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Contexto social específico (2)",
+            "description" : "Detalles sobre un contexto o tema social específico, o una agrupación de ellos, relevantes para el propósito del cribado."
           }
         },
         "fr" : {
@@ -4534,6 +4744,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Contexte social spécifique (2)",
+            "description" : "Détails concernant un problème ou un contexte social spécifique, ou un regroupement de ceux-ci, pertinent pour l'objectif du dépistage."
           }
         },
         "de" : {
@@ -4546,7 +4762,7 @@
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
-            "text" : "Quelle",
+            "text" : "Stand",
             "description" : "Identifizierung einer bestimmten sozialen Situation oder eines Problems, das für den Fragebogen relevant ist, oder Gruppe derer.",
             "comment" : "Dieses Element bietet die Wahl zwischen freiem und kodiertem Text. Es ist davon auszugehen, dass die Liste der kodierten Werte mit der Identifizierung weiterer Anforderungen wachsen wird. Die Kodierung des „Kontexts“ mithilfe einer Terminologie sollte bevorzugt werden - beispielsweise können relevante Begriffe innerhalb der Hierarchie „Sozialer Kontext“ in SNOMED CT (SCTID: 108329005) genutzt werden. Alternativ kann auch Freitext verwendet werden, etwa „Soziale Isolation“, „Diskriminierung“ oder „Minderheitenstress“."
           },
@@ -4555,6 +4771,25 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.6",
             "description" : ""
+          },
+          "at0022.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Wissen über Diabetes mellitus",
+            "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
+          },
+          "at0022.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.2",
+            "text" : "Wissen über Prädiabetes",
+            "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
+          },
+          "at0004.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Stand",
+            "description" : "Identifizierung einer bestimmten sozialen Situation oder eines Problems, das für den Fragebogen relevant ist, oder Gruppe derer.",
+            "comment" : "Dieses Element bietet die Wahl zwischen freiem und kodiertem Text. Es ist davon auszugehen, dass die Liste der kodierten Werte mit der Identifizierung weiterer Anforderungen wachsen wird. Die Kodierung des „Kontexts“ mithilfe einer Terminologie sollte bevorzugt werden - beispielsweise können relevante Begriffe innerhalb der Hierarchie „Sozialer Kontext“ in SNOMED CT (SCTID: 108329005) genutzt werden. Alternativ kann auch Freitext verwendet werden, etwa „Soziale Isolation“, „Diskriminierung“ oder „Minderheitenstress“."
           }
         }
       },
@@ -4584,6 +4819,11 @@
         "ac0.6" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.6",
+          "members" : [ "at0023", "at0024", "at0027", "at0050" ]
+        },
+        "ac0.7" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.7",
           "members" : [ "at0023", "at0024", "at0027", "at0050" ]
         }
       }
