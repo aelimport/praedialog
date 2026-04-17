@@ -32,7 +32,7 @@ description
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"877221AC8A8A03CE9E2C16C79B2D29B1">
+		["MD5-CAM-1.0.1"] = <"f1fa57c829ed900cef31c46be90db394">
 		["build_uid"] = <"7b336565-1638-4027-8d7c-6d082c7126ec">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -50,11 +50,7 @@ definition
 					DV_TEXT matches {*}
 				}
 			}
-			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Antwort
-				value matches {
-					DV_TEXT matches {*}
-				}
-			}
+			ELEMENT[at0003] occurrences matches {0..1} matches {*}    -- Antwort
 			ELEMENT[at0004] occurrences matches {0..1} matches {    -- Score
 				value matches {
 					DV_QUANTITY matches {*}
