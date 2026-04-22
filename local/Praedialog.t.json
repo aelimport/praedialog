@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "15.0.0",
+      "sem_ver" : "16.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "d414f3d20232bd32e9545cdfe72bd1eb"
+      "MD5-CAM-1.0.1" : "b1be5c0cd29e9e57311a989696aadcf9"
     },
     "details" : {
       "de" : {
@@ -12504,6 +12504,95 @@
                             }, {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "quellen_fuer_wissen"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "quellen_fuer_wissen" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "1",
+                                    "value" : "Hausärztin / Hausarz"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "2",
+                                    "value" : "Fachärztin / Facharzt"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "3",
+                                    "value" : "Internet allgemein"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "4",
+                                    "value" : "Soziale Medien"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "5",
+                                    "value" : "Familie / Freundeskreis"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "6",
+                                    "value" : "Krankenkasse"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "7",
+                                    "value" : "Printmedien (Zeitung, Zeitschriften, Broschüren)"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "8",
+                                    "value" : "Fernsehen / Radio"
+                                  }, {
+                                    "terminologyId" : "quellen_fuer_wissen",
+                                    "code" : "9",
+                                    "value" : "Noch keine gezielte Information bezogen"
+                                  } ]
+                                } ]
+                              } ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0005.1",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "1..1",
+                                  "terminologyId" : {
+                                    "value" : "local"
+                                  },
+                                  "constraint" : [ "ac0.1" ],
+                                  "selectedTerminologies" : [ ]
+                                } ]
+                              } ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             }, {
@@ -12590,6 +12679,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "Series of questions and associated answers used to screen about the social environment and social situation which may impact the health and well-being of the individual, especially to identify potential issues or risks."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "fi" : {
@@ -12598,6 +12693,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "*Series of questions and associated answers used to screen about the social environment and social situation which may impact the health and well-being of the individual, especially to identify potential issues or risks. (en)"
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "nb" : {
@@ -12606,6 +12707,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "Spørsmål og tilhørende svar som brukes til å kartlegge sosialt miljø og sosiale forhold som kan ha betydning for helse og velferd til et individ, spesielt for å identifisere potensielle utfordringer eller risiko."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "it" : {
@@ -12614,6 +12721,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "*Series of questions and associated answers used to screen about the social environment and social situation which may impact the health and well-being of the individual, especially to identify potential issues or risks. (en)"
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "ca" : {
@@ -12622,6 +12735,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "Sèrie de preguntes i respostes associades que s'utilitzen per avaluar l'entorn social i la situació social que poden afectar la salut i el benestar de l'individu, especialment per identificar possibles problemes o riscos."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "es" : {
@@ -12630,6 +12749,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "Serie de preguntas y respuestas asociadas que se utilizan para investigar el entorno social y la situación social que pueden afectar la salud y el bienestar del individuo, especialmente para identificar posibles problemas o riesgos."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "fr" : {
@@ -12638,6 +12763,12 @@
             "code" : "at0000.1",
             "text" : "self_reported_screening (2)",
             "description" : "Série de questions et de réponses associées, utilisées pour évaluer l’environnement social et la situation sociale, afin de déterminer leur impact sur la santé et le bien-être de l’individu, et d’identifier d’éventuels problèmes ou risques."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         },
         "de" : {
@@ -12646,12 +12777,24 @@
             "code" : "at0000.1",
             "text" : "Quellen für das Wissen",
             "description" : "Eine Reihe von Fragen und zugehörigen Antworten, um das soziale Kontext zu untersuchen und Faktoren zu identifizieren die sich auf das Wohlbefinden des Patienten auswirken können."
+          },
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.1",
+            "description" : ""
           }
         }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
-      "valueSets" : { }
+      "valueSets" : {
+        "ac0.1" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.1",
+          "members" : [ "at0023", "at0024", "at0027", "at0050" ]
+        }
+      }
     },
     "adlVersion" : "1.4",
     "buildUid" : "3bac3c8b-a205-4413-8f49-b865ed810405",
