@@ -277,7 +277,7 @@ Este arquetipo se ha diseñado para utilizarse como herramienta de cribado o par
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"2db77663d07565bc873d16571cb75586">
+		["MD5-CAM-1.0.1"] = <"0b474d5ad48e71fe3035d07ef5390637">
 		["build_uid"] = <"3bac3c8b-a205-4413-8f49-b865ed810405">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"1.1.1">
@@ -306,21 +306,7 @@ definition
 													DV_BOOLEAN matches {*}
 												}
 											}
-											ELEMENT[at0005] occurrences matches {0..1} matches {    -- Presence?
-												value matches {
-													DV_CODED_TEXT matches {
-														defining_code matches {
-															[local::
-															at0023,    -- Yes
-															at0024,    -- No
-															at0027,    -- Unknown
-															at0050]    -- Unsure
-														}
-													}
-													DV_TEXT matches {*}
-													DV_BOOLEAN matches {*}
-												}
-											}
+											ELEMENT[at0005] occurrences matches {0..1} matches {*}    -- Presence?
 											ELEMENT[at0051] occurrences matches {0..*} matches {    -- Timing
 												value matches {
 													DV_TEXT matches {*}
@@ -413,14 +399,6 @@ ontology
 					text = <"Specific social context">
 					description = <"Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose.">
 				>
-				["at0023"] = <
-					text = <"Yes">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"No">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Comment">
 					description = <"Additional narrative about the specific social context, not captured in other fields.">
@@ -428,10 +406,6 @@ ontology
 				["at0026"] = <
 					text = <"Additional details">
 					description = <"Additional details or questions about the specific social context.">
-				>
-				["at0027"] = <
-					text = <"Unknown">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Screening purpose">
@@ -441,10 +415,6 @@ ontology
 				["at0044"] = <
 					text = <"Additional details">
 					description = <"Additional structured details or questions about screening for social context items.">
-				>
-				["at0050"] = <
-					text = <"Unsure">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"Timing">
@@ -498,14 +468,6 @@ ontology
 					text = <"*Specific social context (en)">
 					description = <"*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)">
 				>
-				["at0023"] = <
-					text = <"*Yes (en)">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"*No (en)">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Kommentit">
 					description = <"*Additional narrative about the specific social context, not captured in other fields. (en)">
@@ -513,10 +475,6 @@ ontology
 				["at0026"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional details or questions about the specific social context. (en)">
-				>
-				["at0027"] = <
-					text = <"*Unknown (en)">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"*Screening purpose(en)">
@@ -526,10 +484,6 @@ ontology
 				["at0044"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional structured details or questions about screening for social context items. (en)">
-				>
-				["at0050"] = <
-					text = <"*Unsure (en)">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"*Timing (en)">
@@ -583,14 +537,6 @@ ontology
 					text = <"Spesifikt sosialt forhold">
 					description = <"Detaljer om et spesifikt sosialt forhold, eller en gruppering av slike, som er innenfor kartleggingsformålet.">
 				>
-				["at0023"] = <
-					text = <"Ja">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"Nei">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Kommentar">
 					description = <"Ytterligere fritekst om det spesifikke sosiale forholdet som ikke er omfattet av andre felt.">
@@ -598,10 +544,6 @@ ontology
 				["at0026"] = <
 					text = <"Ytterligere detaljer">
 					description = <"Strukturerte detaljer eller spørsmål om det spesifikke sosiale forholdet.">
-				>
-				["at0027"] = <
-					text = <"Ukjent">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Kartleggingsformål">
@@ -611,10 +553,6 @@ ontology
 				["at0044"] = <
 					text = <"Ytterligere detaljer">
 					description = <"Strukturerte detaljer eller spørsmål om kartleggingen om sosiale forhold.">
-				>
-				["at0050"] = <
-					text = <"Usikker">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"*Timing (en)">
@@ -668,14 +606,6 @@ ontology
 					text = <"*Specific social context (en)">
 					description = <"*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)">
 				>
-				["at0023"] = <
-					text = <"*Yes (en)">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"*No (en)">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Commento">
 					description = <"*Additional narrative about the specific social context, not captured in other fields. (en)">
@@ -683,10 +613,6 @@ ontology
 				["at0026"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional details or questions about the specific social context. (en)">
-				>
-				["at0027"] = <
-					text = <"*Unknown (en)">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Scopo dello screening">
@@ -696,10 +622,6 @@ ontology
 				["at0044"] = <
 					text = <"*Additional details (en)">
 					description = <"*Additional structured details or questions about screening for social context items. (en)">
-				>
-				["at0050"] = <
-					text = <"*Unsure (en)">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"*Timing (en)">
@@ -753,14 +675,6 @@ ontology
 					text = <"Context social específic">
 					description = <"Detalls sobre un context o problema social especificat, o un grup d'aquests, rellevants per a la finalitat del cribratge.">
 				>
-				["at0023"] = <
-					text = <"Si">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"No">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Comentari">
 					description = <"Narrativa addicional sobre el context social específic, no recollida en altres camps.">
@@ -768,10 +682,6 @@ ontology
 				["at0026"] = <
 					text = <"Detalls addicionals">
 					description = <"Detalls o preguntes addicionals sobre el context social específic.">
-				>
-				["at0027"] = <
-					text = <"Desconegut">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Propòsit de cribratge">
@@ -781,10 +691,6 @@ ontology
 				["at0044"] = <
 					text = <"Detalls addicionals">
 					description = <"Detalls estructurats addicionals o preguntes sobre el cribratge d'elements de context social.">
-				>
-				["at0050"] = <
-					text = <"Dubtós">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"Temps">
@@ -838,14 +744,6 @@ ontology
 					text = <"Contexto social específico">
 					description = <"Detalles sobre un contexto o tema social específico, o una agrupación de ellos, relevantes para el propósito del cribado.">
 				>
-				["at0023"] = <
-					text = <"Si">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"No">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Comentario">
 					description = <"Narrativa adicional sobre el contexto social específico, no captada en otros campos.">
@@ -853,10 +751,6 @@ ontology
 				["at0026"] = <
 					text = <"Detalles adicionales">
 					description = <"Detalles adicionales o preguntas sobre el contexto social específico.">
-				>
-				["at0027"] = <
-					text = <"Desconocido">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Propósito del cribado">
@@ -866,10 +760,6 @@ ontology
 				["at0044"] = <
 					text = <"Detalles adicionales">
 					description = <"Narrativa adicional sobre el contexto social del cribado, no captada en otros campos.">
-				>
-				["at0050"] = <
-					text = <"Dudoso">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"Tiempo">
@@ -923,14 +813,6 @@ ontology
 					text = <"Contexte social spécifique">
 					description = <"Détails concernant un problème ou un contexte social spécifique, ou un regroupement de ceux-ci, pertinent pour l'objectif du dépistage.">
 				>
-				["at0023"] = <
-					text = <"Oui">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"Non">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Commentaire">
 					description = <"Récit supplémentaire sur le contexte social spécifique, non saisi dans les autres champs.">
@@ -938,10 +820,6 @@ ontology
 				["at0026"] = <
 					text = <"Détails supplémentaires">
 					description = <"Détails structurés ou questions sur le contexte social spécifique.">
-				>
-				["at0027"] = <
-					text = <"Inconnu">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Objectif du dépistage">
@@ -951,10 +829,6 @@ ontology
 				["at0044"] = <
 					text = <"Détails supplémentaires">
 					description = <"Détails structurées ou questions sur l'évaluation du contexte social.">
-				>
-				["at0050"] = <
-					text = <"Incertain">
-					description = <"">
 				>
 				["at0051"] = <
 					text = <"Timing">
@@ -1008,14 +882,6 @@ ontology
 					text = <"Selbstbericht">
 					description = <"Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind.">
 				>
-				["at0023"] = <
-					text = <"Ja">
-					description = <"">
-				>
-				["at0024"] = <
-					text = <"Nein">
-					description = <"">
-				>
 				["at0025"] = <
 					text = <"Kommentar">
 					description = <"Zusätzliche Angaben zum spezifischen sozialen Kontext, die nicht anderswo erfasst werden.">
@@ -1023,10 +889,6 @@ ontology
 				["at0026"] = <
 					text = <"Zusätzliche Angaben">
 					description = <"Zusätzliche Angaben oder Fragen zum spezifischen sozialen Kontext.">
-				>
-				["at0027"] = <
-					text = <"Unbekannt">
-					description = <"">
 				>
 				["at0034"] = <
 					text = <"Zweck des Screenings">
@@ -1037,10 +899,6 @@ ontology
 					text = <"Zusätzliche Angaben">
 					description = <"Zusätzliche Angaben oder Fragen zum sozialen Kontext im Allgemeinen.">
 				>
-				["at0050"] = <
-					text = <"Unsicher">
-					description = <"">
-				>
 				["at0051"] = <
 					text = <"Zeitangaben">
 					description = <"Wann die Situation erlebt wurde.">
@@ -1050,15 +908,6 @@ ontology
 					text = <"Allgemeiner Kommentar">
 					description = <"Zusätzliche Angaben zum sozialen Kontext im Allgemeinen, die nicht anderswo erfasst werden.">
 				>
-			>
-		>
-	>
-	term_bindings = <
-		["SNOMED-CT"] = <
-			items = <
-				["at0023"] = <[SNOMED-CT::373066001]>
-				["at0024"] = <[SNOMED-CT::373067005]>
-				["at0027"] = <[SNOMED-CT::261665006]>
 			>
 		>
 	>
