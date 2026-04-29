@@ -277,7 +277,7 @@ Este arquetipo se ha diseñado para utilizarse como herramienta de cribado o par
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0b474d5ad48e71fe3035d07ef5390637">
+		["MD5-CAM-1.0.1"] = <"e4ae4495693071aa72e9c68c03efdf98">
 		["build_uid"] = <"3bac3c8b-a205-4413-8f49-b865ed810405">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
 		["revision"] = <"1.1.1">
@@ -306,7 +306,7 @@ definition
 													DV_BOOLEAN matches {*}
 												}
 											}
-											ELEMENT[at0005] occurrences matches {0..1} matches {*}    -- Presence?
+											ELEMENT[at0005] occurrences matches {0..*} matches {*}    -- Presence?
 											ELEMENT[at0051] occurrences matches {0..*} matches {    -- Timing
 												value matches {
 													DV_TEXT matches {*}
@@ -356,7 +356,6 @@ definition
 	}
 
 ontology
-	terminologies_available = <"SNOMED-CT", ...>
 	term_definitions = <
 		["en"] = <
 			items = <
