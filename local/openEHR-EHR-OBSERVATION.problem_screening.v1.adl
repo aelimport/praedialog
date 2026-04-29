@@ -291,7 +291,7 @@ No utilizar para registrar detalles sobre una lista de selección simple en la q
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"9F1B95B53D81FF86EF3DF128A51108E9">
+		["MD5-CAM-1.0.1"] = <"28b013c83d3f68e96989f66f71938641">
 		["build_uid"] = <"557e192f-550a-4d2f-af4c-37d5116c3cad">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomedct or info@snomed.org.">
 		["revision"] = <"1.0.8">
@@ -720,7 +720,7 @@ Zum Beispiel: Screening vor der Aufnahme oder der Name des eigentlichen Fragebog
 					description = <"">
 				>
 				["at0045"] = <
-					text = <"*Unsure (en)">
+					text = <"Usicher">
 					description = <"">
 				>
 			>
