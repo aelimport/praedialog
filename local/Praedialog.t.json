@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "21.0.0",
+      "sem_ver" : "22.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c1320fe04f10dfc23d05908dfba626a3"
+      "MD5-CAM-1.0.1" : "28609529c94979cc86e5eda749293288"
     },
     "details" : {
       "de" : {
@@ -3753,64 +3753,7 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "einkommen"
-                      },
-                      "constraint" : [ ],
-                      "selectedTerminologies" : [ "einkommen" ],
-                      "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "einkommen",
-                        "code" : "1",
-                        "value" : "1.500 € – 2.499 €",
-                        "translations" : {
-                          "de" : "bis 1.499 €"
-                        }
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "2",
-                        "value" : "2.500 € – 3.999 €",
-                        "translations" : {
-                          "de" : "1.500 € – 2.499 €"
-                        }
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "3",
-                        "value" : "4.000 € – 5.999 €",
-                        "translations" : {
-                          "de" : "2.500 € – 3.999 €"
-                        }
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "4",
-                        "value" : "6.000 € – 7.999 €",
-                        "translations" : {
-                          "de" : "4.000 € – 5.999 €"
-                        }
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "5",
-                        "value" : "≥ 8.000 €",
-                        "translations" : {
-                          "de" : "6.000 € – 7.999 €"
-                        }
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "6",
-                        "value" : "≥ 8.000 €"
-                      }, {
-                        "terminologyId" : "einkommen",
-                        "code" : "7",
-                        "value" : "Keine Angabe"
-                      } ]
-                    } ]
-                  } ],
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -8843,61 +8786,7 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ {
-                    "@type" : "C_ATTRIBUTE",
-                    "rmAttributeName" : "defining_code",
-                    "children" : [ {
-                      "@type" : "C_TERMINOLOGY_CODE",
-                      "rmTypeName" : "TERMINOLOGY_CODE",
-                      "occurrences" : "0..1",
-                      "terminologyId" : {
-                        "value" : "beschaeftigunsstatus"
-                      },
-                      "constraint" : [ ],
-                      "selectedTerminologies" : [ "beschaeftigunsstatus" ],
-                      "limitToList" : false,
-                      "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "1",
-                        "value" : "Momentan arbeitslos",
-                        "translations" : {
-                          "de" : "Erwerbstätig"
-                        }
-                      }, {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "2",
-                        "value" : "Im Haushalt tätig",
-                        "translations" : {
-                          "de" : "Momentan arbeitslos"
-                        }
-                      }, {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "3",
-                        "value" : "Schule / Studium",
-                        "translations" : {
-                          "de" : "Im Haushalt tätig"
-                        }
-                      }, {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "4",
-                        "value" : "In Rente / Pension",
-                        "translations" : {
-                          "de" : "Schule / Studium"
-                        }
-                      }, {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "5",
-                        "value" : "Elternzeit / Mutterschutz",
-                        "translations" : {
-                          "de" : "In Rente / Pension"
-                        }
-                      }, {
-                        "terminologyId" : "beschaeftigunsstatus",
-                        "code" : "6",
-                        "value" : "Elternzeit / Mutterschutz"
-                      } ]
-                    } ]
-                  } ],
+                  "attributes" : [ ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
