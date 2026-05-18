@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "22.0.0",
+      "sem_ver" : "22.1.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "28609529c94979cc86e5eda749293288"
+      "MD5-CAM-1.0.1" : "5f8e7a8c008cebb983e3aca279d7d073"
     },
     "details" : {
       "de" : {
@@ -4728,7 +4728,40 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "terminologyId" : {
+                                    "value" : "knowledge_diabetes_praedialog"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "knowledge_diabetes_praedialog" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "knowledge_diabetes_praedialog",
+                                    "code" : "1",
+                                    "value" : "sehr gering"
+                                  }, {
+                                    "terminologyId" : "knowledge_diabetes_praedialog",
+                                    "code" : "2",
+                                    "value" : "eher gering"
+                                  }, {
+                                    "terminologyId" : "knowledge_diabetes_praedialog",
+                                    "code" : "3",
+                                    "value" : "mittel"
+                                  }, {
+                                    "terminologyId" : "knowledge_diabetes_praedialog",
+                                    "code" : "4",
+                                    "value" : "eher hoch"
+                                  }, {
+                                    "terminologyId" : "knowledge_diabetes_praedialog",
+                                    "code" : "5",
+                                    "value" : "sehr hoch"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
