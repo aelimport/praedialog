@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "25.0.0",
+      "sem_ver" : "26.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "10c12dbb2e8d66145558d3b84c687c66"
+      "MD5-CAM-1.0.1" : "9951ec5239020912981f3c4ff3697dc3"
     },
     "details" : {
       "de" : {
@@ -5923,7 +5923,20 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0004.1",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Wurde bei Ihnen jemals Bluthochdruck festgestellt?",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
@@ -6020,7 +6033,20 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0004.2",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Nehmen Sie regelmäßig Blutdruckmedikamente ein? ",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
@@ -6117,7 +6143,20 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0004.3",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Hat oder hatte Ihre Mutter Diabetes?",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
@@ -6214,7 +6253,20 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0004.4",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Hat oder hatte Ihr Vater Diabetes?",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
@@ -6311,7 +6363,20 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0004.5",
-                          "attributes" : [ ],
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Wurde bei Ihnen bereits ein Diabetes mellitus diagnostiziert? ",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
                           "attributeTuples" : [ ]
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
@@ -7071,7 +7136,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Rauchverhalten",
+                                "value" : "Rauchen Sie aktuell? ",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7168,7 +7233,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Körperliche Aktivität",
+                                "value" : "Wie viele Stunden pro Woche sind Sie körperlich aktiv?",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7265,7 +7330,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Konsum von Vollkornprodukten",
+                                "value" : "Wie häufig essen Sie Vollkornprodukte?",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7362,7 +7427,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Konsum von rotem Fleisch",
+                                "value" : "Wie häufig essen Sie rotes Fleisch? ",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7459,7 +7524,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Konsum von Kaffee",
+                                "value" : "Wie viele Tassen Kaffee trinken Sie pro Tag?",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7556,7 +7621,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Konsum von Obst",
+                                "value" : "Wie viele Portionen Obst essen Sie pro Tag? ",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -7653,7 +7718,7 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
                               "defaultValue" : {
-                                "value" : "Konsum von Gemüse",
+                                "value" : "Wie viele Portionen Gemüse essen Sie pro Tag? ",
                                 "@type" : "DV_TEXT"
                               },
                               "attributes" : [ ],
@@ -8544,6 +8609,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich plane meine Mahlzeiten bewusst im Hinblick auf Gesundheit.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -8629,6 +8698,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich achte auf einen hohen Ballaststoffanteil in meiner Ernährung.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -8714,6 +8787,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : " Ich konsumiere regelmäßig zuckerhaltige Getränke.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -8799,6 +8876,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : " Ich esse aus Stress oder emotionalen Gründen.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -8884,6 +8965,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich informiere mich aktiv über gesunde Ernährung",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -8969,6 +9054,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : " Ich kann einschätzen, wie sich verschiedene Lebensmittel auf meinen Blutzucker auswirken.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -9720,6 +9809,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich bewege mich regelmäßig im Alltag ",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -9791,6 +9884,95 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0022.7",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0004.7",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : " Ich betreibe gezielt Ausdauertraining (z. B. Joggen, Schwimmen, Radfahren).",
+                                "@type" : "DV_TEXT"
+                              },
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..1",
+                          "nodeId" : "at0005.7",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0051.7",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_TEXT",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_DATE_TIME",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_DURATION",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_INTERVAL<DV_DATE_TIME>",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            }, {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "occurrences" : "0..0",
+                          "nodeId" : "at0025.7",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
                       "nodeId" : "at0022.2",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
@@ -9805,6 +9987,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich führe regelmäßig Krafttraining durch (z. B. Fitnessstudio, Eigengewichtstraining).",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -9890,6 +10076,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich nehme an Mannschaftssport oder Bewegungsangeboten in einer Gruppe teil.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -9975,6 +10165,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich sitze täglich länger als 8 Stunden.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -10060,6 +10254,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich fühle mich körperlich leistungsfähig.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -10145,6 +10343,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Ich weiß, wie viel körperliche Aktivität pro Woche für die Gesundheit empfohlen wird.",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
@@ -10273,6 +10475,12 @@
             "code" : "at0022",
             "text" : "Specific social context (6)",
             "description" : "Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Specific social context (7)",
+            "description" : "Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose."
           }
         },
         "fi" : {
@@ -10310,6 +10518,12 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022",
             "text" : "*Specific social context (en) (6)",
+            "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "*Specific social context (en) (7)",
             "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
           }
         },
@@ -10349,6 +10563,12 @@
             "code" : "at0022",
             "text" : "Spesifikt sosialt forhold (6)",
             "description" : "Detaljer om et spesifikt sosialt forhold, eller en gruppering av slike, som er innenfor kartleggingsformålet."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Spesifikt sosialt forhold (7)",
+            "description" : "Detaljer om et spesifikt sosialt forhold, eller en gruppering av slike, som er innenfor kartleggingsformålet."
           }
         },
         "it" : {
@@ -10386,6 +10606,12 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022",
             "text" : "*Specific social context (en) (6)",
+            "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "*Specific social context (en) (7)",
             "description" : "*Details about a specified social context or issue, or a grouping of these, relevant for the screening purpose. (en)"
           }
         },
@@ -10425,6 +10651,12 @@
             "code" : "at0022",
             "text" : "Context social específic (6)",
             "description" : "Detalls sobre un context o problema social especificat, o un grup d'aquests, rellevants per a la finalitat del cribratge."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Context social específic (7)",
+            "description" : "Detalls sobre un context o problema social especificat, o un grup d'aquests, rellevants per a la finalitat del cribratge."
           }
         },
         "es" : {
@@ -10463,6 +10695,12 @@
             "code" : "at0022",
             "text" : "Contexto social específico (6)",
             "description" : "Detalles sobre un contexto o tema social específico, o una agrupación de ellos, relevantes para el propósito del cribado."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Contexto social específico (7)",
+            "description" : "Detalles sobre un contexto o tema social específico, o una agrupación de ellos, relevantes para el propósito del cribado."
           }
         },
         "fr" : {
@@ -10500,6 +10738,12 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022",
             "text" : "Contexte social spécifique (6)",
+            "description" : "Détails concernant un problème ou un contexte social spécifique, ou un regroupement de ceux-ci, pertinent pour l'objectif du dépistage."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Contexte social spécifique (7)",
             "description" : "Détails concernant un problème ou un contexte social spécifique, ou un regroupement de ceux-ci, pertinent pour l'objectif du dépistage."
           }
         },
@@ -10544,6 +10788,12 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022.6",
             "text" : "Körperliche Aktivität empfohlen",
+            "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
+          },
+          "at0022.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.7",
+            "text" : "Regelmäßiges Ausdauertraining",
             "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
           }
         }
