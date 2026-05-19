@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "27.0.0",
+      "sem_ver" : "28.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "6e5c40919d4edb9ce745dc4e28335c4c"
+      "MD5-CAM-1.0.1" : "6a4fd2af7ebe362421ad485787beffab"
     },
     "details" : {
       "de" : {
@@ -4696,7 +4696,6 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
-                          "occurrences" : "0..0",
                           "nodeId" : "at0004.1",
                           "attributes" : [ {
                             "@type" : "C_ATTRIBUTE",
@@ -4741,6 +4740,7 @@
                                 "children" : [ {
                                   "@type" : "C_TERMINOLOGY_CODE",
                                   "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
                                   "terminologyId" : {
                                     "value" : "knowledge_diabetes_praedialog"
                                   },
@@ -4830,7 +4830,6 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
-                          "occurrences" : "0..0",
                           "nodeId" : "at0004.2",
                           "attributes" : [ {
                             "@type" : "C_ATTRIBUTE",
@@ -4875,6 +4874,7 @@
                                 "children" : [ {
                                   "@type" : "C_TERMINOLOGY_CODE",
                                   "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
                                   "terminologyId" : {
                                     "value" : "knowledge_diabetes_praedialog"
                                   },
@@ -8630,7 +8630,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -8719,7 +8753,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -8808,7 +8876,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -8897,7 +8999,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -8986,7 +9122,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -9075,7 +9245,41 @@
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_CODED_TEXT",
                               "occurrences" : "1..1",
-                              "attributes" : [ ],
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "ernährungsverhalten"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "ernährungsverhalten" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "1",
+                                    "value" : "nie"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "2",
+                                    "value" : "selten"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "3",
+                                    "value" : "manchmal"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "4",
+                                    "value" : "häufig"
+                                  }, {
+                                    "terminologyId" : "ernährungsverhalten",
+                                    "code" : "5",
+                                    "value" : "immer"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -11755,6 +11959,10 @@
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "defaultValue" : {
+                                "value" : "Über welche Quellen beziehen bzw. bezogen Sie bisher hauptsächlich Informationen zu Thema Diabetes? (Mehrfachnennung möglich)",
+                                "@type" : "DV_TEXT"
+                              },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
