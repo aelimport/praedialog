@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "3.0.0",
+      "sem_ver" : "4.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "5dc0d37f0bb52984a1982726de993072",
+      "MD5-CAM-1.0.1" : "70d52f6cdae046c867b6f7675a64a471",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -797,6 +797,12 @@
             "code" : "at0000.1",
             "text" : "Allgemeine Gesundheitskompetenz",
             "description" : "Eine Reihe von Fragen und zugehörigen Antworten, um das soziale Kontext zu untersuchen und Faktoren zu identifizieren die sich auf das Wohlbefinden des Patienten auswirken können."
+          },
+          "at0022.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Allgemeine Gesundheitskompetenz",
+            "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
           }
         }
       },
@@ -1115,7 +1121,7 @@
                     "children" : [ {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0022",
+                      "nodeId" : "at0022.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -1276,6 +1282,12 @@
             "code" : "at0000.1",
             "text" : "Spezielle Gesundheitskompetenz Typ-2-Diabetes und Prävention",
             "description" : "Eine Reihe von Fragen und zugehörigen Antworten, um das soziale Kontext zu untersuchen und Faktoren zu identifizieren die sich auf das Wohlbefinden des Patienten auswirken können."
+          },
+          "at0022.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Spezielle Gesundheitskompetenz Typ-2-Diabetes und Prävention",
+            "description" : "Details zu einem spezifischen sozialen Kontext oder Problem, oder Gruppe derer, die für das Screening relevant sind."
           }
         }
       },
