@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "7e3767c2bcefb41808d286db092a0447",
+      "MD5-CAM-1.0.1" : "babdd55c97c29718bb6edbfbeecc97cf",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE"
     },
     "details" : {
@@ -1143,18 +1143,51 @@
                             "rmAttributeName" : "value",
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_CODED_TEXT",
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "occurrences" : "1..1",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             }, {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "occurrences" : "1..1",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             }, {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_BOOLEAN",
-                              "attributes" : [ ],
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "spez_gesundheitskompetenz"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "spez_gesundheitskompetenz" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "spez_gesundheitskompetenz",
+                                    "code" : "1",
+                                    "value" : "sehr einfach"
+                                  }, {
+                                    "terminologyId" : "spez_gesundheitskompetenz",
+                                    "code" : "2",
+                                    "value" : "eher einfach"
+                                  }, {
+                                    "terminologyId" : "spez_gesundheitskompetenz",
+                                    "code" : "3",
+                                    "value" : "eher schwierig"
+                                  }, {
+                                    "terminologyId" : "spez_gesundheitskompetenz",
+                                    "code" : "4",
+                                    "value" : "sehr schwierig"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -1622,18 +1655,58 @@
                             "rmAttributeName" : "value",
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_CODED_TEXT",
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "occurrences" : "1..1",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             }, {
                               "@type" : "C_COMPLEX_OBJECT",
                               "rmTypeName" : "DV_TEXT",
+                              "occurrences" : "1..1",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             }, {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_BOOLEAN",
-                              "attributes" : [ ],
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "terminologyId" : {
+                                    "value" : "wohlbefinden"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "wohlbefinden" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "0",
+                                    "value" : "die ganze Zeit"
+                                  }, {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "1",
+                                    "value" : "die meiste Zeit"
+                                  }, {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "2",
+                                    "value" : "mehr als die Hälfte der Zeit"
+                                  }, {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "3",
+                                    "value" : "weniger als die Hälfte der Zeit"
+                                  }, {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "4",
+                                    "value" : "gelegendlich"
+                                  }, {
+                                    "terminologyId" : "wohlbefinden",
+                                    "code" : "5",
+                                    "value" : "zu keinem Zeitpunkt"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
