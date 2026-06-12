@@ -19,10 +19,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "33.0.0",
+      "sem_ver" : "34.0.0",
       "PARENT:MD5-CAM-1.0.1" : "A60D0B7F52F1F9C3C9B3518DB83ACDAE",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "98805af1fa950efa5fb326b77a6145b8"
+      "MD5-CAM-1.0.1" : "d4acd4ad16f4751ef58c05f7b0536539"
     },
     "details" : {
       "de" : {
@@ -12321,16 +12321,6 @@
                               },
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
-                            }, {
-                              "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_CODED_TEXT",
-                              "attributes" : [ ],
-                              "attributeTuples" : [ ]
-                            }, {
-                              "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_BOOLEAN",
-                              "attributes" : [ ],
-                              "attributeTuples" : [ ]
                             } ]
                           } ],
                           "attributeTuples" : [ ]
@@ -12417,16 +12407,6 @@
                                 "value" : "Ich willige ein, dass meine im Rahmen der Studie erhobenen anonymen Daten zu wissenschaftlichen Zwecken ausgewertet werden",
                                 "@type" : "DV_TEXT"
                               },
-                              "attributes" : [ ],
-                              "attributeTuples" : [ ]
-                            }, {
-                              "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_CODED_TEXT",
-                              "attributes" : [ ],
-                              "attributeTuples" : [ ]
-                            }, {
-                              "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_BOOLEAN",
                               "attributes" : [ ],
                               "attributeTuples" : [ ]
                             } ]
